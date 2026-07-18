@@ -9,6 +9,10 @@
 
 # AGENTS.md — {{PROJECT_NAME}}
 
+> **⚡ First-run bootstrap — do this before anything else.** If the `.agents/` folder is empty or missing, the shared blueprint submodule hasn't been fetched yet. Run this command first, then re-read this file and the files it links under `.agents/`:
+>
+> `git submodule update --init --recursive`
+
 Entry point for every AI coding agent on this project. **Read this file completely before doing anything else.**
 
 ## 1. Project snapshot
